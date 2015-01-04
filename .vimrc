@@ -39,17 +39,18 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+set clipboard=unnamedplus
 
 "インデント設定
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+set autoindent
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
 autocmd FileType c setlocal shiftwidth=4 tabstop=4 softtabstop=4
 
 set expandtab
-set autoindent
 set backspace=indent,eol,start
 set wrapscan
 set showmatch
